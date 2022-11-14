@@ -13,7 +13,7 @@ const publicRoutes = [
     { path: '/following', component: Following },
     { path: '/profile', component: Profile },
     { path: '/upload', component: Upload, layout: HeaderOnly },
-    { path: '/search', component: Search, layout: null },
+    { path: '/upload/:id', component: Search },
 ];
 
 const privateRoutes = [];
